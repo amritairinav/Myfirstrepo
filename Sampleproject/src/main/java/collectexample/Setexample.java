@@ -7,7 +7,7 @@ public class Setexample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Set<String>fruits=new HashSet<>();
+		Set<String>fruits=new HashSet<String>();
 		fruits.add("orange");
 		fruits.add("banana");
 		fruits.add("grapes");
@@ -21,7 +21,7 @@ public class Setexample {
 		
 		//add,addall,contains,containsall,size,is empty---can be done in set
 		
-		fruits.remove("");
+		fruits.remove("null");
 		System.out.println(fruits);
 		fruits.clear();//clear all elements in list
 		System.out.println(fruits);

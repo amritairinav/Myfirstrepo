@@ -53,6 +53,8 @@ for(int i=1;i<=3;i++)
         System.out.println("Exception caught successfully");
     } 
 
+   //String a=null;
+   //System.out.println(a.length());
    
 }
 }

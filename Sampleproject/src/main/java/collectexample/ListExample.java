@@ -9,6 +9,7 @@ public class ListExample {
 		// TODO Auto-generated method stub
 		//create List
 		List<String> Vehicles=new ArrayList<String>();
+		System.out.println(Vehicles);
 		//add elements to collection
 		Vehicles.add("Car");
 		Vehicles.add("Bus");
@@ -53,5 +54,6 @@ public class ListExample {
 		 }
 		 }
 	}
+
 
 

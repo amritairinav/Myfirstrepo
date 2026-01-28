@@ -16,7 +16,7 @@ public class SingleChildInterface1 implements MultipleParent1,MultipleParent2{
 		
 
 	@Override
-	public void diff() {
+	public void diff() { //if same method name in interfcae ,then only one override
 		int a=100;
 		int b=200;
 		int c=b-a;

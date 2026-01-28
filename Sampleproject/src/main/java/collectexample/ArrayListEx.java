@@ -36,8 +36,9 @@ public class ArrayListEx {
 	        Iterator<String>itr=Colors.iterator();
 	        while(itr.hasNext()) {
 	        	System.out.println(itr.next());
+	        }
 	        	itr.remove();
-	        		        }
+	        		        
 	        System.out.println(Colors);
 	    }
 	}

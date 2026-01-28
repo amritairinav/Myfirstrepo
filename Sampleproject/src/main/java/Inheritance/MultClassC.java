@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class MultClassC extends MultClassB {
+public class MultClassC extends MultClassB{
 
 	public void result() {
         System.out.println("Result displayed");
@@ -11,5 +11,7 @@ public class MultClassC extends MultClassB {
         obj.add();     
         obj.display();  
         obj.result();  
-    }
+    
 }
+}
+

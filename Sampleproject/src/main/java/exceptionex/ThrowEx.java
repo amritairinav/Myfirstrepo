@@ -11,7 +11,7 @@ public class ThrowEx {
 			System.out.println("eligible for votting");
 		}
 		else {
-			throw new Exception("Not eligible");
+			throw new ArithmeticException("Not eligible");
 		}
 		}
 
